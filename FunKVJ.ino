@@ -11,8 +11,8 @@ NTPClient timeClient(ntpUDP, ntpServer, timeZoneOffset);
 unsigned long lastMillis = 0;
 const unsigned long interval = 10000;
 
-const char* SSID = "";
-const char* PASS = "";
+const char* SSID = "";  //add your own
+const char* PASS = "";  //add your own
 const char* FUN = "https://funoulutalvikangas.fi/?controller=ajax&getentriescount=1&locationId=1";
 const char* WILLAB = "https://weather.willab.fi/weather.json";
 
